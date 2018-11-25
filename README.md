@@ -1,5 +1,8 @@
 # Gitmoji Workflow for Alfred
 
+[![GitHub Releases](https://img.shields.io/github/downloads/Quilljou/alfred-gitmoji-workflow/latest/total.svg)](https://github.com/Quilljou/alfred-gitmoji-workflow/releases)
+
+
 > [Gitmoji](https://github.com/carloscuesta/gitmoji) is an initiative to standardize and explain the use of emojis on GitHub commit messages.
 
 Search gitmojis and then copy to clipboard, So you don't have to remember what the emoji means.
