@@ -16,11 +16,10 @@ function setResult($gitmojis) {
     global $w;
     foreach ($gitmojis as $key => $value) {
         $id = $value->name;
-        $arg = $value->code;
         $emoji = $value->emoji;
         $title = $emoji." ".$value->description;
-        $subTitle = "Copy ".$arg." to clipboard";
-        $w->result($id, $arg, $title, $subTitle, ' ');
+        $subTitle = "Copy ".$id." to clipboard";
+        $w->result($id, $emoji, $title, $subTitle, ' ');
     }
 }
 
