@@ -3,7 +3,7 @@
 // Forked from https://github.com/gharlan/alfred-github-workflow/blob/master/bin/build
 
 $dir = dirname(__DIR__);
-$VERSION = "1.0.0";
+$VERSION = "1.0.1";
 require $dir.'/workflows.php';
 
 $plist = $dir.'/info.plist';
